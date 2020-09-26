@@ -1,0 +1,403 @@
+@charset "utf-8";
+/*CSS Document*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************************************************************************************************************************/
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-image{
+    margin-right: 20px;
+    width: 25rem;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.container-text h1{
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-text h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.note{
+    display: inline-block;
+    width: 20%;
+        @media (max-width: 620px){
+            width: 100%;
+        }
+}
+
+.logoallocine{
+    display: inline-block;
+    vertical-align: left;
+    width: 5%;   
+}
+
+.logoimdb{
+    display: inline-block;
+    vertical-align: left;
+    width: 5%;
+}
+
+.logotomato{
+    display: inline-block;
+    vertical-align: left;
+    width: 5%;
+}
+
+.commentaire{
+    position: relative;
+    padding-top: 15px ;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(235, 235, 85, 0.966);
+    min-height: 30px;
+    top: 90px;
+}
+
+.site{
+    font-size: 15px;
+    color: rgb(103, 180, 216);
+}
+
+.atomicblonde{
+    width: 110px;
+    border: 1px solid rgb(116, 126, 141); 
+}
+
+.atomicblonde:hover{ 
+    outline: 2px solid rgb(202, 234, 255);  
+}
+
+
+.jamesbond{
+    width: 110px;
+    border: 1px solid rgb(116, 126, 141); 
+}
+
+.jamesbond:hover{ 
+    outline: 2px solid rgb(202, 234, 255);  
+}
+
+
+.matrix{
+    width: 110px;
+    border: 1px solid rgb(116, 126, 141); 
+}
+
+.matrix:hover{ 
+    outline: 2px solid rgb(202, 234, 255);  
+}
+
+
+.equalizer{
+    width: 110px;
+    border: 1px solid rgb(116, 126, 141); 
+}
+
+.equalizer:hover{ 
+    outline: 2px solid rgb(202, 234, 255);  
+}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.trailer{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 60px;
+}
+
+.video{
+    display: flex;
+    width: 450px;
+    height: 200px;
+}
+
+.scene1{
+    display: flex;
+    width: 350px;
+    height: 200px;
+}
+
+.scene2{
+    display: flex;
+    width: 320px;
+    height: 200px;
+}
+
+
+.container2{
+    display: flex;
+}
+
+.container-chara{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.container-chara p{
+    display: flex;
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.titre{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+.synopsis{
+    flex-direction: column;
+    text-align: justify;
+    line-height: 22px;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    margin-right: 200px;
+    padding-bottom: 80px;
+}
+
+.horaires{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.tableau{
+    display: flex;
+    padding-top: 10px;
+}
+
+th{
+    background-color: rgb(76, 135, 175);
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+}
+
+ 
+td{
+    text-align: center;
+}
+
+
+.bouton1{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+    
+.bouton1:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+      
+.bouton2{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+
+.bouton2:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+.bouton3{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+
+.bouton3:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+.bouton4{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+
+.bouton4:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+.bouton5{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+
+.bouton5:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+.bouton6{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+
+.bouton6:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+.bouton7{
+    background-color: rgb(202, 234, 255);  
+    color: black; 
+    border: 2px solid rgb(89, 113, 124);
+}
+
+.bouton7:hover{
+    background-color:rgb(33, 91, 129);  
+    color: white;
+}
+
+.titre-rea{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.rea-ronde{
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.titre-perso{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.reeves-ronde{
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ian-ronde{
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.fishburne-ronde{
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.berry-ronde{
+    width: 45px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.role{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    color: rgb(103, 180, 216);
+}
+
+.container-chara a:link{
+    color: rgb(255, 255, 255);
+  }
+  
+
+  .container-chara a:visited{
+    color: rgb(255, 255, 255);
+  }
+  
+
+  .container-chara a:hover{
+    color: rgb(202, 234, 255); 
+  }
+  
